@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(255, 255, 255, 0.072);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.container > div {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.item1 {
+    grid-column: 1/5;
+    border: solid rgb(245, 190, 190) 1px;
+    height: 80px;
+    border-radius: 3px;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 10px;
+    background-color: white;
+    color: black;
+}
+
+.item20 {
+    grid-column: 3/5;
+}
+
+.item5, .item9, .item13, .item17, .item20 {
+    background-color: rgb(254, 197, 151);
+    color: black;
+    font-weight: bold;
+}
+
+.item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15, .item16, .item17, .item18, .item19, .item20 {
+    border: 1px solid gray;
+}
+
+.item2, .item3, .item4, .item5 {
+    margin-top: 5px;
+}
